@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./data/index.css">
+</head>
+
+<body>
+    <div id="parent">
+        <div id="overlappingDiv"></div>
+        <!--draguel-->
+        <div id="enemyInfo">
+            <h4>Draggle</h4>
+            <div id="enemyHpBar">
+                <div id="enemyHpBarEmpty"></div>
+                <!-- <div id="enemyHP_Bar_notfull"></div> -->
+                <div id="enemyHpBarFull"></div>
+            </div>
+        </div>
+        <!--draguel-->
+        <!------------>
+        <!--embby-->
+        <div id="allyInfo">
+            <h4>Embby</h4>
+            <div id="allyHpBar">
+                <div id="allyHpBarEmpty"></div>
+                <!-- <div id="allyHP_Bar_notfull"></div> -->
+                <div id="allyHpBarfull"></div>
+            </div>
+        </div>
+        <!--emby-->
+        <canvas></canvas>
+
+        <div id="attackBar">
+            <div id="dialogueBox"></div>
+            <div id="attacksNamesButtons"></div>
+            <div id="attackType">
+                <h3 id="attackText">Attack Type</h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+  integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<!--<script src="./data/gsap.js"></script>-->
+<script src="./data/battleArray.js"></script>
+<script src="./data/collisionArray.js"></script>
+<script src="./data/attack.js"></script>
+<script src="./data/monsters.js"></script>
+<script src="./data/classes.js"></script>
+<script src="./data/index.js"></script>
+<script src="./data/battleScene.js"></script>
+
+
+</html>
